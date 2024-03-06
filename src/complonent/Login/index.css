@@ -1,59 +1,100 @@
 .container{
-       display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;  
     background-color: white;
     box-shadow: 5px 10px 30px rgb(63, 37, 68);
     border-radius: 5%;
     width: 30vw;
-    height: 40vh;
+    height: 45vh;
     margin: auto;
-    margin-top: 20vh;
-
+    margin-top: 25vh;
  
 }
 
-/* .inner-container{
+ .inner-container{
+    border-radius: 5%;
+    width: 20vw;
 
-} */
+} 
 
 .welcome{
     color: black;
-    font-family: sans-serif;
-    font-size: 120%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.875em;
+    display: flex;
     justify-content: center;
-
+    font-weight: 600;
 }
 
+/* .login-info-container .icon{
+ 
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+
 .login-info-container{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1px 5px 1px 10px;
+}
+
+.input-text{
+    font-size: 90%;
+    padding: 4%;
+    width: 100%;
+    border: none;
+    flex: 1;
+}
+
+.input-text:focus{
+    font-size: 90%;
+    padding: 4%;
+    width: 100%;
+    outline:none;
+    border: none;
+    flex: 1;
+}
+
+.icon{
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.label{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: black;
+    size: 2em;
 }
 
 .login-btn{
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 30%;
-    padding-right: 30%;
-    border-radius: 5%;
+    padding: 5% 30% 5% 30%;
+    border-radius: 10px;
     border-style: none;
     box-shadow: 5px 10px  30px rgba(158, 87, 172, 0.623);
     margin-top:10%;
     background-color: #4EB2D4;
     color: azure;
     font-weight: 900;
-    width: 15vw;
+    width: 100%;
+    cursor: pointer;
 }
 
-.input-text{
-    font-size: 90%;
-    padding: 5%;
-    border-radius: 15px;
-    border-style: 1px solid rgb(192, 51, 51);
-    width: 15vw;
+.login-btn:hover {
+    background-color: #0056b3;
+  }
 
+.flooter{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
-
-.label{
-    font-size: 15px;
-}
-
