@@ -8,7 +8,7 @@
     width: 30vw;
     height: 45vh;
     margin: auto;
-    margin-top: 25vh;
+    margin-top: 15vh;
  
 }
 
@@ -27,15 +27,9 @@
     font-weight: 600;
 }
 
-/* .login-info-container .icon{
- 
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-} */
 
-.login-info-container{
+.input-info-container{
+    margin-top: 1%;
     margin-bottom: 5%;
     display: flex;
     align-items: center;
@@ -47,16 +41,16 @@
 
 .input-text{
     font-size: 90%;
-    padding: 4%;
+    padding: 2%;
     width: 100%;
     border: none;
     flex: 1;
 }
 
 .input-text:focus{
-    font-size: 90%;
-    padding: 4%;
-    width: 100%;
+    /* font-size: 90%;
+    padding: 2%;
+    width: 100%; */
     outline:none;
     border: none;
     flex: 1;

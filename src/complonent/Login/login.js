@@ -15,7 +15,7 @@ function login() {
           <h2 className="welcome text-2x1 ">Welcome Back!</h2>
           <form>
             <label className="label">Email</label>
-            <div className="login-info-container">
+            <div className="input-info-container">
               <MdOutlineMail className="icon size-5" />
               <input 
               type="text"
@@ -24,7 +24,7 @@ function login() {
               />
             </div>
             <label className="label">Password</label>
-            <div className="login-info-container">
+            <div className="input-info-container">
               <CiLock className="icon size-5" />
               <input
               type="password"
@@ -32,6 +32,10 @@ function login() {
                 placeholder="Enter Password"
                 autoComplete="off"
               ></input>
+                 <span 
+              className="text-blue-600 cursor-pointer hover-underline hover:underline text-xs">
+                Forget Password?
+                </span>
             </div>
             <button className="login-btn">Log In</button>
           </form>
