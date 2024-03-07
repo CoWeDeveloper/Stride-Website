@@ -1,4 +1,4 @@
-import React from "react";
+
 import Navbar from "../navbar";
 import "./index.css";
 // import icons
@@ -8,6 +8,7 @@ import { CiLock } from "react-icons/ci";
 function login() {
   return (
     <div>
+      
       <Navbar />
 
       <div className="container ">
@@ -41,9 +42,15 @@ function login() {
           </form>
         </div>
       </div>
+      <section>
       <div className="flooter">
         Don't have an account? <a href="" className="ml-1 underline cursor-pointer"> Sign up</a>
       </div>
+        <div className="bg__img">
+        
+         </div>
+    
+      </section>
     </div>
   );
 }
