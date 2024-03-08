@@ -1,10 +1,10 @@
-// import './App.css';
-import Login from './complonent/Login/login';
+
+import Navbar from "./components/navbar"
 
 function App() {
     return(
         // <h1>Hello</h1>
-    <Login />
+    <Navbar />
     )     
 }
 
