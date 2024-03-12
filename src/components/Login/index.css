@@ -1,33 +1,4 @@
-/* @media (max-wdith:600px ) and(min-wdth:300) {
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;  
-        background-color: white;
-        box-shadow: 5px 10px 30px rgb(63, 37, 68);
-        border-radius: 5%;
-        width: 30vw;
-        height: 45vh;
-        margin: auto;
-        margin-top: 15vh;
-    }
-} */
 
-
-
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    background-color: white;
-    box-shadow: 5px 10px 30px rgb(63, 37, 68);
-    border-radius: 5%;
-    width: 30vw;
-    height: 45vh;
-    margin: auto;
-    margin-top: 15vh;
-    
-}
 
  .inner-container{
     border-radius: 5%;

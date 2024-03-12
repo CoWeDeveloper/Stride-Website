@@ -25,14 +25,20 @@ function Register() {
 
     return (
     <div>
-       <div>
-      <div className="container">
-        <div className="inner-container">
+       <section className='m-3'>
+
+      <div className="bg-white 
+      max-w-sm mx-auto md:max-w-sm h-140
+      shadow-lg 
+      place-content-center
+      flex justify-center items-center 
+      rounded-xl">
+        <div className="mx-auto p-4 ">
           <h2 className="header text-2x1 ">Let's Dive in!</h2>
           <form>
             {/* Username */}
             <label className="label">Username</label>
-            <div className="input-info-container">
+            <div className="input-info-container max-w-md mx-auto">
               <IoMdPerson className="icon size-5" />
               <input
                 type="text"
@@ -87,7 +93,7 @@ function Register() {
         
         <div className="bg__img"></div>
       </section>
-    </div>
+    </section>
     </div>
   )
 }
